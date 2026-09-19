@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+    int a = 5, b = 4;
+    printf("Multiplication = %d", a * b);
+    getch();
+}
