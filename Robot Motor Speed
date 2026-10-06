@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int speed;
+    clrscr();
+
+    for(speed=10; speed<=50; speed+=10)
+        printf("Motor Speed = %d RPM\n", speed);
+
+    getch();
+}
